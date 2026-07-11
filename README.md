@@ -7,6 +7,8 @@
 
 > **Shop While Watching:** A next-generation interactive live commerce platform that merges low-latency streaming entertainment with instant purchasing.
 
+🚀 **Live Demo:** [https://vijaymahes9080.github.io/LiveShop-AI-Interactive-Live-Commerce-Platform/](https://vijaymahes9080.github.io/LiveShop-AI-Interactive-Live-Commerce-Platform/)
+
 ## 🎨 Platform Design Concept Mockups
 
 | 🎥 Live Stream Shop View | 🧠 Conversational AI Discovery | ⚡ Gamified Flash Auction |
