@@ -1,0 +1,11 @@
+{
+    "name": "vijaymahes/liveshop-ai",
+    "description": "Interactive Live Commerce Platform",
+    "authors": [
+        {
+            "name": "Vijay Mahes",
+            "email": "Vijaypradhap2004@gmail.com"
+        }
+    ],
+    "require": {}
+}
