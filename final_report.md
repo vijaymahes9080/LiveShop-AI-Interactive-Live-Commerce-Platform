@@ -1,13 +1,13 @@
-# Engineering Design Report — AI Live Shopping Platform (Version 2.0)
+# Engineering Design Report — AI Live Shopping Platform
 
-**Project Title**: AI Live Shopping Platform – Shop While Watching (Live Commerce V2)  
+**Project Title**: AI Live Shopping Platform – Shop While Watching (Live Commerce)  
 **Author**: Senior Product Architect & AI Solutions Engineer  
 **Status**: Production-Ready Design Specification  
 
 ---
 
 ## 1. Project Overview & Background
-The **AI Live Shopping Platform (V2.0)** is a next-generation interactive live commerce platform designed to merge streaming entertainment with instant purchasing. Rather than navigating away from streams, buyers watch interactive videos, engage in real-time chats, participate in audience polls, and buy pinned products instantly using AI semantic discovery.
+The **AI Live Shopping Platform** is a next-generation interactive live commerce platform designed to merge streaming entertainment with instant purchasing. Rather than navigating away from streams, buyers watch interactive videos, engage in real-time chats, participate in audience polls, and buy pinned products instantly using AI semantic discovery.
 
 ---
 
@@ -291,7 +291,7 @@ Context:
 ### Development Phases
 ```mermaid
 gantt
-    title LiveShop V2.0 Implementation Schedule
+    title LiveShop Implementation Schedule
     dateFormat  YYYY-MM-DD
     section Phase 1: Foundation
     Database design & setup          :done,    des1, 2026-06-01, 2026-06-07

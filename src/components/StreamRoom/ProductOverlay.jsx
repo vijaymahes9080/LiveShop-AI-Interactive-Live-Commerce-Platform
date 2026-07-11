@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { ShoppingBag, Star, HelpCircle, X, ChevronUp, ShoppingCart } from 'lucide-react';
+import GamifiedHub from './GamifiedHub';
 
 export default function ProductOverlay({ product, poll, onAddToCart, onBuyNow }) {
   const [isOpen, setIsOpen] = useState(true);
@@ -34,7 +35,7 @@ export default function ProductOverlay({ product, poll, onAddToCart, onBuyNow })
     return (
       <button onClick={() => setIsOpen(true)} style={styles.minBtn} className="glass-heavy">
         <ShoppingBag size={18} color="var(--color-pink)" />
-        <span style={styles.minBtnText}>View Pinned Deal</span>
+        <span style={styles.minBtnText}>View Interactive Deals</span>
       </button>
     );
   }
@@ -95,6 +96,13 @@ export default function ProductOverlay({ product, poll, onAddToCart, onBuyNow })
         </div>
       )}
 
+      {/* Gamified Live Commerce Hub (Co-Buy & Flash Auctions) */}
+      <GamifiedHub 
+        pinnedProduct={product}
+        onBuyNow={onBuyNow}
+        onAddToCart={onAddToCart}
+      />
+
       {/* Live Poll Card */}
       {localPoll && (
         <div style={styles.pollCard} className="glass-heavy">
@@ -140,6 +148,7 @@ export default function ProductOverlay({ product, poll, onAddToCart, onBuyNow })
   );
 }
 
+
 const styles = {
   container: {
     position: 'absolute',
@@ -150,7 +159,11 @@ const styles = {
     gap: '12px',
     zIndex: 20,
     maxWidth: '340px',
-    width: 'calc(100% - 40px)'
+    width: 'calc(100% - 40px)',
+    maxHeight: 'calc(100% - 140px)',
+    overflowY: 'auto',
+    scrollbarWidth: 'none', /* Firefox */
+    msOverflowStyle: 'none'  /* IE 10+ */
   },
   minBtn: {
     position: 'absolute',

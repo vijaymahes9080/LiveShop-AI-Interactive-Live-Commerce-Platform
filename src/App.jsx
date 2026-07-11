@@ -153,7 +153,7 @@ export default function App() {
       <header className="nav-header glass">
         <div className="brand-logo">
           <Sparkles size={24} fill="currentColor" />
-          <span>LiveShop AI <span style={{ fontSize: '10px', verticalAlign: 'super', color: 'var(--color-pink)' }}>V2.0</span></span>
+          <span>LiveShop AI</span>
         </div>
 
         {/* Portal Switcher Tabs */}

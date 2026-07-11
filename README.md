@@ -1,4 +1,4 @@
-# 🎥 LiveShop AI — Interactive Live Commerce Platform (V2.0)
+# 🎥 LiveShop AI — Interactive Live Commerce Platform
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![React](https://img.shields.io/badge/Frontend-React%2019%20%2B%20Vite-blue)](https://react.dev/)
@@ -6,6 +6,12 @@
 [![Database](https://img.shields.io/badge/Databases-PostgreSQL%20%2B%20MongoDB%20%2B%20Qdrant-orange)](https://qdrant.tech/)
 
 > **Shop While Watching:** A next-generation interactive live commerce platform that merges low-latency streaming entertainment with instant purchasing.
+
+## 🎨 Platform Design Concept Mockups
+
+| 🎥 Live Stream Shop View | 🧠 Conversational AI Discovery | ⚡ Gamified Flash Auction |
+| :---: | :---: | :---: |
+| ![Concept Stream](./docs/images/liveshop_concept_stream.png) | ![AI Discovery](./docs/images/liveshop_ai_discovery.png) | ![Flash Auction](./docs/images/liveshop_flash_auction.png) |
 
 ---
 

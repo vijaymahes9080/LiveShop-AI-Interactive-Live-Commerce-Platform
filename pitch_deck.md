@@ -1,11 +1,11 @@
-# Pitch Deck Slides — LiveShop AI (Version 2.0)
+# Pitch Deck Slides — LiveShop AI
 
 This document contains slide content for investor or executive presentation. Use these structured layouts for PowerPoint, Google Slides, or Keynote decks.
 
 ---
 
 ### Slide 1: Cover Page
-* **Title**: LiveShop AI (V2.0)
+* **Title**: LiveShop AI
 * **Subtitle**: The Shop-While-Watching Live Commerce Revolution
 * **Presenter**: [Your Name/Title]
 * **Logo description**: Sparkle icon + Camera silhouette inside neon magenta gradient frame.
